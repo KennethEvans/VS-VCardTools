@@ -9,7 +9,6 @@ namespace VCardExtractPhotos {
         /// </summary>
         /// <param name="msg"></param>
         public static void errMsg(string msg) {
-
             Console.WriteLine("Error: " + msg);
         }
 
