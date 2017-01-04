@@ -92,7 +92,7 @@ namespace VCardExtractPhotos {
             string prefix = Path.GetFileNameWithoutExtension(name);
             string ext = Path.GetExtension(inputFileName2);
             string outputFileName2 = Path.Combine(outputDirName2,
-                name + ".Combined" + ext);
+                prefix + ".Combined" + ext);
 
             using (var sw = new StreamWriter(outputFileName2, false,
                 PDIParser.DefaultEncoding)) {
